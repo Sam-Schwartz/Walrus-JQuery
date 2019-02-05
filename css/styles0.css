@@ -1,0 +1,26 @@
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.dark_bg {
+  background-color: black;
+  color: white;
+}
+
+.lighter_bg {
+  background-color: blue;
+  color: yellow;
+}
+
+#section1-showing {
+  display: none;
+}
+
+#section2-showing {
+  display: none;
+}
