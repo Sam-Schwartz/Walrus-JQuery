@@ -13,6 +13,18 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+  $(".p-high").click(function() {
+    if ($("#pp-high").hasClass("p-highlight")) {
+      $("#pp-high").removeClass("p-highlight");
+    } else {
+      $("#pp-high").addClass("p-highlight");
+    }
+
+  });
+
+});
+
+$(document).ready(function() {
   $("button#bg-dark").click(function() {
     $("body").removeClass();
     $("body").addClass("dark_bg");
